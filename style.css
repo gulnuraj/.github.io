@@ -1,0 +1,335 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.continer {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  margin-top: 23px;
+  margin-left: 16px;
+}
+.navigation {
+  display: flex;
+}
+nav ul {
+  width: 379px;
+  height: 28px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 27px;
+}
+nav ul:hover {
+  font-weight: bolder;
+}
+ul li:first-child {
+  font-weight: bolder;
+}
+.sign_in {
+  background: none;
+  width: 102px;
+  height: 43px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-left: 24px;
+}
+.sign_up {
+  width: 110px;
+  height: 43px;
+  background: #02897a;
+  border: none;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-left: 24px;
+}
+.header_img {
+  margin-left: 24px;
+  margin-top: 10px;
+}
+.section_one {
+  display: flex;
+  justify-content: space-between;
+}
+.amico {
+  margin-top: 43px;
+}
+.one_title {
+  margin-top: 145px;
+}
+.one_title h1 {
+  width: 400px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.one_title p {
+  width: 350px;
+}
+.get_started {
+  width: 175px;
+  height: 53px;
+  background: #02897a;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.video {
+  margin-left: 30px;
+  background: none;
+  border: none;
+  color: #02897a;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+}
+.play {
+  width: 20px;
+  height: 17px;
+  margin-right: 8px;
+}
+.buttons {
+  display: flex;
+}
+.icon p {
+  width: 200px;
+}
+.icon_one p {
+  width: 240px;
+}
+.icon_two p {
+  width: 240px;
+}
+.icon_three {
+  width: 240px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.two_title {
+  margin-top: 114px;
+  margin-bottom: 66px;
+  width: 500px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sign_now {
+  width: 175px;
+  height: 53px;
+  background: #02897a;
+  color: white;
+  background: #02897a;
+  border-radius: 4px;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+#section_two {
+  background-image: url("img/Bg\ \(2\).png");
+  background-size: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.section_three {
+  display: flex;
+  align-items: center;
+}
+.three_title p {
+  width: 486px;
+}
+.three_foto {
+  padding-top: 70px;
+  width: 539.83px;
+  height: 473.47px;
+  left: 715px;
+  top: 1467.83px;
+  padding-left: 84px;
+}
+.section_four {
+  display: flex;
+  margin-top: 150px;
+}
+.four_foto {
+  width: 543px;
+  margin-right: 190px;
+}
+.croup_icon p {
+  display: flex;
+  width: 385px;
+  line-height: 30px;
+}
+.croup_icon img {
+  padding-right: 30px;
+}
+.five_title p {
+  width: 486px;
+}
+.amico_png img {
+  width: 541px;
+  margin-left: 120px;
+}
+.section_five {
+  display: flex;
+  margin-top: 187px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: space-between;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.six_p {
+  width: 542px;
+}
+.Contact {
+  background-color: #02897a;
+  border: none;
+  padding: 14px 30px 14px 30px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 60px;
+}
+#section_six {
+  background-image: url("img/begr.svg");
+  background-repeat: no-repeat;
+}
+.wahid {
+  width: 348px;
+  text-align: center;
+}
+.wahid h1 {
+  width: 300px;
+}
+.wahid h1:hover {
+  color: #02897a;
+}
+.wahids {
+  display: flex;
+  justify-content: space-between;
+}
+.inputs {
+  text-align: center;
+}
+.price {
+  padding-left: 83px;
+  display: flex;
+  height: 100px;
+  width: 150px;
+  align-items: center;
+}
+.free {
+  text-align: center;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.free:hover {
+  background-color: #02897a;
+  color: white;
+}
+.free:hover .dollar {
+  color: white;
+}
+.free:hover .order_now {
+  background-color: white;
+  color: #02897a;
+}
+.free:hover h1 {
+  color: white;
+}
+
+.section_eight {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.order_now {
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.price div {
+  text-align: left;
+}
+.dollar {
+  font-size: 24px;
+  color: #02897a;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.per {
+  color: #afafaf;
+  margin: 0 auto;
+}
+.price h1 {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #02897a;
+  margin: 0 auto;
+}
+.frees {
+  display: flex;
+  justify-content: space-between;
+}
+.section_nine {
+  margin: 0 auto;
+}
+.nine_nine {
+  text-align: center;
+}
+.nine_nine p {
+  text-align: center;
+  height: 56px;
+  width: 537px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  margin: 0 auto;
+}
+.nine_fotos {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.nine_foto {
+  padding-top: 50px;
+  width: 280px;
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+.nine_title {
+  width: 275px;
+}
+.ten_ten {
+  padding-top: 150px;
+}
